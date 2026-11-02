@@ -106,6 +106,7 @@ claude plugin update <mod>@leonybom-mods
 - Desktop app: the bar stays above the Tools box when it is open (its row is keyed `top:thinkbar`), with a thin line under it like the one under the Tools box.
 - Desktop app: the row is centered; its dot sits centered on the M of MODS and its star over the Infobar's last %, where the lines end.
 - Desktop app: the progress bar has the same room after the label as before the percent.
+- Between events the bar creeps on by itself, slower the closer it gets: never past the next task-list step, and never past 90% until the answer.
 
 ### 0.1.0
 - First version: a purple progress bar above the prompt and the other mods, from the moment a prompt is sent until the answer. It shows what Claude is doing, follows Claude's task list when there is one, and turns green at the answer. Replaces the progress bar of Clean Info Agents, without the crabs.
